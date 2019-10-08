@@ -18,13 +18,13 @@
 @property (nonatomic,strong,nonnull) UIImage *selectImage;
 
 /** 划线颜色 */
-@property (nonatomic,strong) UIColor *lineColor;
+@property (nonatomic,strong) UIColor * _Nullable lineColor;
 
 /** 划线宽度 */
 @property (nonatomic,assign) CGFloat lineWidth;
 
 /** 正在进行手势密码 */
-@property (nonatomic,copy) void(^lockChangeBlock) (NSString *index);
+@property (nonatomic,copy) void(^ _Nullable lockChangeBlock) (NSString * _Nullable index);
 
 /**
  手势密码初始化方法
@@ -35,6 +35,6 @@
  @param complete 密码完成
  @return 当前的手势密码对象
  */
-- (instancetype)initWithFrame:(CGRect)frame normalImage:( UIImage * _Nonnull )normalImage selectImage:(UIImage * _Nonnull)selectImag complete:(void(^)(NSString *password))complete;
+- (instancetype _Nullable )initWithFrame:(CGRect)frame normalImage:( UIImage * _Nonnull )normalImage selectImage:(UIImage * _Nonnull)selectImag complete:(void(^_Nullable)(NSString * _Nullable password))complete;
 
 @end

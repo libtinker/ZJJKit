@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564A5F472341E40800CC5EF4 /* JJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A5F462341E40800CC5EF4 /* JJTextField.m */; };
 		56604940223CA320008B81EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5660493F223CA320008B81EE /* AppDelegate.m */; };
 		56604943223CA320008B81EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56604942223CA320008B81EE /* ViewController.m */; };
 		56604948223CA321008B81EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56604947223CA321008B81EE /* Assets.xcassets */; };
@@ -20,11 +21,8 @@
 		56604989223F8079008B81EE /* UIColor+JJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 56604988223F8079008B81EE /* UIColor+JJAdd.m */; };
 		56604997223F9F69008B81EE /* imgurl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56604996223F9F69008B81EE /* imgurl.plist */; };
 		566049A5223FCC1C008B81EE /* JJCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 566049A4223FCC1C008B81EE /* JJCarouselView.m */; };
-		566049AE22407CD1008B81EE /* UnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566049AD22407CD1008B81EE /* UnitViewController.m */; };
 		566049BE22420BEF008B81EE /* JJGesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 566049BC22420BEF008B81EE /* JJGesturePasswordView.m */; };
 		566049BF22420BEF008B81EE /* ZJJGuesturePassword.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 566049BD22420BEF008B81EE /* ZJJGuesturePassword.bundle */; };
-		566049C222420EDD008B81EE /* GesturePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 566049C122420EDD008B81EE /* GesturePasswordVC.m */; };
-		566049C52242198A008B81EE /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566049C42242198A008B81EE /* CarouselViewController.m */; };
 		566049CE22436A22008B81EE /* UIDevice+JJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 566049CD22436A22008B81EE /* UIDevice+JJAdd.m */; };
 		680258352273EB7A00C8C54D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680258342273EB7A00C8C54D /* Images.xcassets */; };
 		68E9C893233F8B0D002589C3 /* NSObject+JJBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E9C892233F8B0D002589C3 /* NSObject+JJBuilder.m */; };
@@ -50,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		4A364F73094D17DA68AE4F6B /* Pods-ZJJKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJJKitExample/Pods-ZJJKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		564A5F452341E40800CC5EF4 /* JJTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTextField.h; sourceTree = "<group>"; };
+		564A5F462341E40800CC5EF4 /* JJTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTextField.m; sourceTree = "<group>"; };
 		5660493B223CA320008B81EE /* ZJJKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJJKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5660493E223CA320008B81EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5660493F223CA320008B81EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,15 +77,9 @@
 		56604996223F9F69008B81EE /* imgurl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = imgurl.plist; sourceTree = "<group>"; };
 		566049A3223FCC1C008B81EE /* JJCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCarouselView.h; sourceTree = "<group>"; };
 		566049A4223FCC1C008B81EE /* JJCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCarouselView.m; sourceTree = "<group>"; };
-		566049AC22407CD1008B81EE /* UnitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitViewController.h; sourceTree = "<group>"; };
-		566049AD22407CD1008B81EE /* UnitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitViewController.m; sourceTree = "<group>"; };
 		566049BB22420BEF008B81EE /* JJGesturePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGesturePasswordView.h; sourceTree = "<group>"; };
 		566049BC22420BEF008B81EE /* JJGesturePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGesturePasswordView.m; sourceTree = "<group>"; };
 		566049BD22420BEF008B81EE /* ZJJGuesturePassword.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZJJGuesturePassword.bundle; sourceTree = "<group>"; };
-		566049C022420EDD008B81EE /* GesturePasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturePasswordVC.h; sourceTree = "<group>"; };
-		566049C122420EDD008B81EE /* GesturePasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordVC.m; sourceTree = "<group>"; };
-		566049C32242198A008B81EE /* CarouselViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
-		566049C42242198A008B81EE /* CarouselViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 		566049CC22436A22008B81EE /* UIDevice+JJAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JJAdd.h"; sourceTree = "<group>"; };
 		566049CD22436A22008B81EE /* UIDevice+JJAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JJAdd.m"; sourceTree = "<group>"; };
 		680258342273EB7A00C8C54D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -121,6 +115,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564A5F442341D26E00CC5EF4 /* ZJJView */ = {
+			isa = PBXGroup;
+			children = (
+				566049BB22420BEF008B81EE /* JJGesturePasswordView.h */,
+				566049BC22420BEF008B81EE /* JJGesturePasswordView.m */,
+				566049A3223FCC1C008B81EE /* JJCarouselView.h */,
+				566049A4223FCC1C008B81EE /* JJCarouselView.m */,
+				56604971223CC7EA008B81EE /* JJUnitTextFiled.h */,
+				56604972223CC7EA008B81EE /* JJUnitTextFiled.m */,
+				564A5F452341E40800CC5EF4 /* JJTextField.h */,
+				564A5F462341E40800CC5EF4 /* JJTextField.m */,
+			);
+			path = ZJJView;
+			sourceTree = "<group>";
+		};
 		56604932223CA320008B81EE = {
 			isa = PBXGroup;
 			children = (
@@ -146,18 +155,13 @@
 		5660493D223CA320008B81EE /* ZJJKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				564A5F442341D26E00CC5EF4 /* ZJJView */,
 				56604995223F9F05008B81EE /* souce */,
 				56604970223CA54D008B81EE /* JJKit */,
 				5660493E223CA320008B81EE /* AppDelegate.h */,
 				5660493F223CA320008B81EE /* AppDelegate.m */,
 				56604941223CA320008B81EE /* ViewController.h */,
 				56604942223CA320008B81EE /* ViewController.m */,
-				566049C32242198A008B81EE /* CarouselViewController.h */,
-				566049C42242198A008B81EE /* CarouselViewController.m */,
-				566049AC22407CD1008B81EE /* UnitViewController.h */,
-				566049AD22407CD1008B81EE /* UnitViewController.m */,
-				566049C022420EDD008B81EE /* GesturePasswordVC.h */,
-				566049C122420EDD008B81EE /* GesturePasswordVC.m */,
 				56604947223CA321008B81EE /* Assets.xcassets */,
 				5660494C223CA321008B81EE /* Info.plist */,
 				5660494D223CA321008B81EE /* main.m */,
@@ -189,12 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				56604984223CF1D6008B81EE /* JJKit.h */,
-				566049BB22420BEF008B81EE /* JJGesturePasswordView.h */,
-				566049BC22420BEF008B81EE /* JJGesturePasswordView.m */,
-				566049A3223FCC1C008B81EE /* JJCarouselView.h */,
-				566049A4223FCC1C008B81EE /* JJCarouselView.m */,
-				56604971223CC7EA008B81EE /* JJUnitTextFiled.h */,
-				56604972223CC7EA008B81EE /* JJUnitTextFiled.m */,
 				5660497E223CE786008B81EE /* NSString+JJAdd.h */,
 				5660497F223CE786008B81EE /* NSString+JJAdd.m */,
 				56604977223CD50D008B81EE /* CALayer+JJAdd.h */,
@@ -388,18 +386,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566049C52242198A008B81EE /* CarouselViewController.m in Sources */,
 				566049CE22436A22008B81EE /* UIDevice+JJAdd.m in Sources */,
 				56604943223CA320008B81EE /* ViewController.m in Sources */,
 				5660494E223CA321008B81EE /* main.m in Sources */,
 				566049A5223FCC1C008B81EE /* JJCarouselView.m in Sources */,
-				566049AE22407CD1008B81EE /* UnitViewController.m in Sources */,
 				56604980223CE786008B81EE /* NSString+JJAdd.m in Sources */,
 				56604989223F8079008B81EE /* UIColor+JJAdd.m in Sources */,
-				566049C222420EDD008B81EE /* GesturePasswordVC.m in Sources */,
 				56604979223CD50D008B81EE /* CALayer+JJAdd.m in Sources */,
 				56604940223CA320008B81EE /* AppDelegate.m in Sources */,
 				56604973223CC7EA008B81EE /* JJUnitTextFiled.m in Sources */,
+				564A5F472341E40800CC5EF4 /* JJTextField.m in Sources */,
 				566049BE22420BEF008B81EE /* JJGesturePasswordView.m in Sources */,
 				68E9C893233F8B0D002589C3 /* NSObject+JJBuilder.m in Sources */,
 			);

@@ -58,6 +58,9 @@ typedef struct TapGestureRecognizerBuilder {
     id                      target;
     SEL                     action;
 } TapGestureRecognizerBuilder;
+
+
+/// 建造者模式
 @interface NSObject (JJBuilder)
 
 ///UILabel的构建
