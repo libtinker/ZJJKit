@@ -25,7 +25,7 @@ extern CFAbsoluteTime AppStartLaunchTime;
     ViewController *ctrl = [[ViewController alloc] init];
     self.window.rootViewController = ctrl;
     [self.window makeKeyAndVisible];
-  NSString *name =  [[UIDevice currentDevice] sysnameName];
+    NSString *name =  [[UIDevice currentDevice] sysnameName];
     NSLog(@"--------%@",name);
     dispatch_async(dispatch_get_main_queue(), ^{
         NSLog(@"App启动时间--%f",(CFAbsoluteTimeGetCurrent()-AppStartLaunchTime));

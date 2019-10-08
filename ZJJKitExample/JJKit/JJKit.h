@@ -14,5 +14,6 @@
 #import "NSString+JJAdd.h"
 #import "UIColor+JJAdd.h"
 #import "NSObject+JJBuilder.h"
+#import "UIView+JJAdd.h"
 
 #endif /* JJKit_h */
